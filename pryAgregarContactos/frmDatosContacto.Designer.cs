@@ -93,6 +93,7 @@
             // 
             // lstListadoDatos
             // 
+            this.lstListadoDatos.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstListadoDatos.FormattingEnabled = true;
             this.lstListadoDatos.ItemHeight = 16;
             this.lstListadoDatos.Location = new System.Drawing.Point(51, 343);
