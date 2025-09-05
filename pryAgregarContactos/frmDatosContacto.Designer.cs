@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDatosContacto));
             this.txtNumero = new System.Windows.Forms.MaskedTextBox();
             this.txtContacto = new System.Windows.Forms.TextBox();
             this.lblContacto = new System.Windows.Forms.Label();
@@ -35,6 +36,7 @@
             this.btnGrabar = new System.Windows.Forms.Button();
             this.lstListadoDatos = new System.Windows.Forms.ListBox();
             this.lblDatos = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumero
@@ -82,23 +84,25 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrabar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGrabar.Location = new System.Drawing.Point(353, 279);
             this.btnGrabar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(120, 45);
+            this.btnGrabar.Size = new System.Drawing.Size(120, 33);
             this.btnGrabar.TabIndex = 5;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // lstListadoDatos
             // 
+            this.lstListadoDatos.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstListadoDatos.FormattingEnabled = true;
-            this.lstListadoDatos.ItemHeight = 16;
+            this.lstListadoDatos.ItemHeight = 17;
             this.lstListadoDatos.Location = new System.Drawing.Point(51, 343);
             this.lstListadoDatos.Margin = new System.Windows.Forms.Padding(4);
             this.lstListadoDatos.Name = "lstListadoDatos";
-            this.lstListadoDatos.Size = new System.Drawing.Size(207, 132);
+            this.lstListadoDatos.Size = new System.Drawing.Size(207, 123);
             this.lstListadoDatos.TabIndex = 6;
             this.lstListadoDatos.SelectedIndexChanged += new System.EventHandler(this.lstListadoDatos_SelectedIndexChanged);
             // 
@@ -114,12 +118,25 @@
             this.lblDatos.TabIndex = 7;
             this.lblDatos.Text = "Ingrese los Datos a Grabar";
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.ForeColor = System.Drawing.Color.Red;
+            this.btnCancelar.Location = new System.Drawing.Point(51, 279);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(119, 33);
+            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // frmDatosContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(537, 504);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.lblDatos);
             this.Controls.Add(this.lstListadoDatos);
             this.Controls.Add(this.btnGrabar);
@@ -128,6 +145,7 @@
             this.Controls.Add(this.txtContacto);
             this.Controls.Add(this.txtNumero);
             this.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDatosContacto";
             this.Text = "Contacto y Número de Teléfono";
@@ -145,6 +163,7 @@
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.ListBox lstListadoDatos;
         private System.Windows.Forms.Label lblDatos;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
 
