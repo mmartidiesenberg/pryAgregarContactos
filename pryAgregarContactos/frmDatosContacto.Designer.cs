@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDatosContacto));
             this.txtNumero = new System.Windows.Forms.MaskedTextBox();
             this.txtContacto = new System.Windows.Forms.TextBox();
             this.lblContacto = new System.Windows.Forms.Label();
@@ -91,6 +92,7 @@
             this.btnGrabar.TabIndex = 5;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // lstListadoDatos
             // 
@@ -142,6 +144,7 @@
             this.Controls.Add(this.txtContacto);
             this.Controls.Add(this.txtNumero);
             this.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDatosContacto";
             this.Text = "Contacto y Número de Teléfono";

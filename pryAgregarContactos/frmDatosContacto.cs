@@ -21,5 +21,17 @@ namespace pryAgregarContactos
         {
 
         }
+        // declaracion variables
+        string vContacto;
+        string vNumeroTelefono;
+        int vContador = 0;
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            vContacto = txtContacto.Text;
+            vNumeroTelefono = txtNumero.Text;
+
+            string vResultado = vContador + "----" + vContacto + "----" + vNumeroTelefono;
+            lstListadoDatos.Items.Add(vResultado);
+        }
     }
 }
