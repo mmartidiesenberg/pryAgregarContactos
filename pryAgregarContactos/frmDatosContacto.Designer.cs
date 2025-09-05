@@ -94,13 +94,13 @@
             // 
             // lstListadoDatos
             // 
-            this.lstListadoDatos.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstListadoDatos.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstListadoDatos.FormattingEnabled = true;
-            this.lstListadoDatos.ItemHeight = 16;
+            this.lstListadoDatos.ItemHeight = 17;
             this.lstListadoDatos.Location = new System.Drawing.Point(51, 343);
             this.lstListadoDatos.Margin = new System.Windows.Forms.Padding(4);
             this.lstListadoDatos.Name = "lstListadoDatos";
-            this.lstListadoDatos.Size = new System.Drawing.Size(207, 132);
+            this.lstListadoDatos.Size = new System.Drawing.Size(207, 123);
             this.lstListadoDatos.TabIndex = 6;
             this.lstListadoDatos.SelectedIndexChanged += new System.EventHandler(this.lstListadoDatos_SelectedIndexChanged);
             // 
