@@ -42,6 +42,7 @@
             this.txtNumero.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero.Location = new System.Drawing.Point(329, 208);
             this.txtNumero.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNumero.Mask = "(999)000-0000";
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(143, 29);
             this.txtNumero.TabIndex = 0;
@@ -59,6 +60,7 @@
             // 
             this.lblContacto.AutoSize = true;
             this.lblContacto.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContacto.ForeColor = System.Drawing.Color.Indigo;
             this.lblContacto.Location = new System.Drawing.Point(46, 144);
             this.lblContacto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContacto.Name = "lblContacto";
@@ -70,6 +72,7 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.ForeColor = System.Drawing.Color.Indigo;
             this.lblTelefono.Location = new System.Drawing.Point(46, 212);
             this.lblTelefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTelefono.Name = "lblTelefono";
@@ -103,6 +106,7 @@
             // 
             this.lblDatos.AutoSize = true;
             this.lblDatos.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDatos.ForeColor = System.Drawing.Color.Indigo;
             this.lblDatos.Location = new System.Drawing.Point(182, 54);
             this.lblDatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDatos.Name = "lblDatos";
@@ -114,6 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(613, 576);
             this.Controls.Add(this.lblDatos);
             this.Controls.Add(this.lstListadoDatos);
