@@ -35,6 +35,7 @@
             this.btnGrabar = new System.Windows.Forms.Button();
             this.lstListadoDatos = new System.Windows.Forms.ListBox();
             this.lblDatos = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumero
@@ -82,11 +83,11 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrabar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGrabar.Location = new System.Drawing.Point(353, 279);
             this.btnGrabar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(120, 45);
+            this.btnGrabar.Size = new System.Drawing.Size(120, 33);
             this.btnGrabar.TabIndex = 5;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
@@ -115,12 +116,24 @@
             this.lblDatos.TabIndex = 7;
             this.lblDatos.Text = "Ingrese los Datos a Grabar";
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.ForeColor = System.Drawing.Color.Red;
+            this.btnCancelar.Location = new System.Drawing.Point(51, 279);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(119, 33);
+            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
             // frmDatosContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(537, 504);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.lblDatos);
             this.Controls.Add(this.lstListadoDatos);
             this.Controls.Add(this.btnGrabar);
@@ -146,6 +159,7 @@
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.ListBox lstListadoDatos;
         private System.Windows.Forms.Label lblDatos;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
 
