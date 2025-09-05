@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace pryAgregarContactos
 {
-    public partial class Form1 : Form
+    public partial class frmDatosContacto : Form
     {
-        public Form1()
+        public frmDatosContacto()
         {
             InitializeComponent();
+        }
+
+        private void lstListadoDatos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
