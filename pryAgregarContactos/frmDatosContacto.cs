@@ -33,5 +33,10 @@ namespace pryAgregarContactos
             string vResultado = vContador + "----" + vContacto + "----" + vNumeroTelefono;
             lstListadoDatos.Items.Add(vResultado);
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
