@@ -95,7 +95,7 @@
             // 
             this.lstListadoDatos.FormattingEnabled = true;
             this.lstListadoDatos.ItemHeight = 16;
-            this.lstListadoDatos.Location = new System.Drawing.Point(52, 407);
+            this.lstListadoDatos.Location = new System.Drawing.Point(51, 343);
             this.lstListadoDatos.Margin = new System.Windows.Forms.Padding(4);
             this.lstListadoDatos.Name = "lstListadoDatos";
             this.lstListadoDatos.Size = new System.Drawing.Size(207, 132);
@@ -107,7 +107,7 @@
             this.lblDatos.AutoSize = true;
             this.lblDatos.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatos.ForeColor = System.Drawing.Color.Indigo;
-            this.lblDatos.Location = new System.Drawing.Point(182, 54);
+            this.lblDatos.Location = new System.Drawing.Point(158, 58);
             this.lblDatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDatos.Name = "lblDatos";
             this.lblDatos.Size = new System.Drawing.Size(249, 26);
@@ -119,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ClientSize = new System.Drawing.Size(613, 576);
+            this.ClientSize = new System.Drawing.Size(537, 504);
             this.Controls.Add(this.lblDatos);
             this.Controls.Add(this.lstListadoDatos);
             this.Controls.Add(this.btnGrabar);
