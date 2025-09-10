@@ -102,7 +102,7 @@
             this.lstListadoDatos.Location = new System.Drawing.Point(51, 343);
             this.lstListadoDatos.Margin = new System.Windows.Forms.Padding(4);
             this.lstListadoDatos.Name = "lstListadoDatos";
-            this.lstListadoDatos.Size = new System.Drawing.Size(207, 123);
+            this.lstListadoDatos.Size = new System.Drawing.Size(421, 106);
             this.lstListadoDatos.TabIndex = 6;
             this.lstListadoDatos.SelectedIndexChanged += new System.EventHandler(this.lstListadoDatos_SelectedIndexChanged);
             // 
@@ -148,6 +148,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDatosContacto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Registro de Contactos";
             this.Load += new System.EventHandler(this.frmDatosContacto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
