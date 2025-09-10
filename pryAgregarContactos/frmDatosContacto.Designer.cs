@@ -47,7 +47,7 @@
             this.txtNumero.Mask = "(999)000-0000";
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(143, 29);
-            this.txtNumero.TabIndex = 0;
+            this.txtNumero.TabIndex = 1;
             // 
             // txtContacto
             // 
@@ -56,7 +56,7 @@
             this.txtContacto.Margin = new System.Windows.Forms.Padding(4);
             this.txtContacto.Name = "txtContacto";
             this.txtContacto.Size = new System.Drawing.Size(143, 29);
-            this.txtContacto.TabIndex = 1;
+            this.txtContacto.TabIndex = 0;
             // 
             // lblContacto
             // 
@@ -67,7 +67,7 @@
             this.lblContacto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContacto.Name = "lblContacto";
             this.lblContacto.Size = new System.Drawing.Size(92, 26);
-            this.lblContacto.TabIndex = 2;
+            this.lblContacto.TabIndex = 4;
             this.lblContacto.Text = "Contacto";
             // 
             // lblTelefono
@@ -79,7 +79,7 @@
             this.lblTelefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(171, 26);
-            this.lblTelefono.TabIndex = 3;
+            this.lblTelefono.TabIndex = 5;
             this.lblTelefono.Text = "Número Teléfono";
             // 
             // btnGrabar
@@ -89,7 +89,7 @@
             this.btnGrabar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(120, 33);
-            this.btnGrabar.TabIndex = 5;
+            this.btnGrabar.TabIndex = 2;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
             this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
@@ -125,7 +125,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(51, 279);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(119, 33);
-            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -148,7 +148,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDatosContacto";
-            this.Text = "Contacto y Número de Teléfono";
             this.Load += new System.EventHandler(this.frmDatosContacto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

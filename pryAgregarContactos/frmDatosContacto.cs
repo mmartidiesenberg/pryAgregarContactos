@@ -15,7 +15,7 @@ namespace pryAgregarContactos
         //variables globales
         string vContacto = "";
         string vNumeroTelefono = "";
-        int vContador = 0;
+        int vContador;
         int indice = 0;
 
         // arrays   -   vectores
