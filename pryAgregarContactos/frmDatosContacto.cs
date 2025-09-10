@@ -12,6 +12,16 @@ namespace pryAgregarContactos
 {
     public partial class frmDatosContacto : Form
     {
+        //variables globales
+        string vContacto = "";
+        string vNumeroTelefono = "";
+        int vContador = 0;
+        int indice = 0;
+
+        // arrays   -   vectores
+        string[] vecContacto = new string[4];
+        string[] vecNumeroTelefono = new string[4];
+
         public frmDatosContacto()
         {
             InitializeComponent();
@@ -21,22 +31,29 @@ namespace pryAgregarContactos
         {
 
         }
-        // declaracion variables
-        string vContacto;
-        string vNumeroTelefono;
-        int vContador = 0;
+        
         private void btnGrabar_Click(object sender, EventArgs e)
         {
             vContacto = txtContacto.Text;
             vNumeroTelefono = txtNumero.Text;
+            vContador++;
 
             string vResultado = vContador + "----" + vContacto + "----" + vNumeroTelefono;
             lstListadoDatos.Items.Add(vResultado);
+
+            vecContacto[indice] = vContacto;
+            vecNumeroTelefono[indice] = vNumeroTelefono;
+            txtContacto.Focus();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void frmDatosContacto_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

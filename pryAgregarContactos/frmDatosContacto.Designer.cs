@@ -149,6 +149,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDatosContacto";
             this.Text = "Contacto y Número de Teléfono";
+            this.Load += new System.EventHandler(this.frmDatosContacto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
