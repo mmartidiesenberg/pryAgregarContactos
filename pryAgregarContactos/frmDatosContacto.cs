@@ -43,6 +43,7 @@ namespace pryAgregarContactos
 
             vecContacto[indice] = vContacto;
             vecNumeroTelefono[indice] = vNumeroTelefono;
+            indice++;
             txtContacto.Focus();
         }
 
