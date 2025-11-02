@@ -38,5 +38,10 @@ namespace pryAgregarContactos
         {
             this.Hide();
         }
+
+        private void txtContacto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
